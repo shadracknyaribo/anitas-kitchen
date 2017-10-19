@@ -1,21 +1,175 @@
 <!DOCTYPE html>
 <html lang="eng">
 <meta charset="utf-8">
+
 <head>
   <title>Anita kitchen</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/botstrap.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" media="all">
-</head>
-  <body>
-    <div class="nav-container ">
-      <img class="span" alt="logo" src="css/images/backgrounds/landing.jpg">
-      <img class="centre" alt="logo" src="css/images/logoBig.png">
-      <p class = "text"> "We provide the best foods at the right places"</p>  
-    </div>
-</div>
+  <div class="jumbotron">
+    <div id="Nav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
+      <div class="overlay-content">
+        <a href="#">contacts</a>
+        <a href="#">events</a>
+        <a href="#">menus</a>
+      </div>
+
+    </div>
+    <span id="open" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <img src="assets/logoBig.png" alt="logo" style=padding-left:450px>
+    <h2>We Provide The Best Food <br> At The <strong>Right Price</strong></h2>
+
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="col-md-12">
+          <h3>Happy Hour</h3>
+        </div>
+        <div class="col-md-12">
+          <h3>Party Time</h3>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <img src="assets/foodtop/breakfast.jpg" alt="breakfast">
+        <div class="centre">
+          <div class="label">Breakfast</div>
+        </div>
+
+      </div>
+      <div class="col-md-3">
+        <img src="assets/foodtop/lunch.jpg" alt="lunch">
+        <div class="centre">
+          <div class="label">Lunch </div>
+        </div>
+
+      </div>
+      <div class="col-md-3">
+        <img src="assets/foodtop/dinner.jpg" alt="dinner">
+        <div class="middle">
+          <div class="label">Supper</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class=" col-md-6" id="border2">
+        <div class="col-md-12">
+          <img src="assets/fastFood1.jpg" alt="fastfood1">
+
+        </div>
+        <div class="col-md-12">
+          <img src="assets/fastFood2.jpg" alt="fastfood2">
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Fast Food</h2>
+        <h5><strong>You'll love our delicious fast food</strong></h5>
+        <p>The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011.[1] Humans keep
+          chickens primarily as a source of food, consuming both their meat and their eggs. .Genetic studies have pointed to multiple maternal origins in Southeast Asia, East Asia,[2] and South Asia, but with the clade found in the Americas, Europe, the
+          Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC.[3] Fowl had been known in Egypt since the mid-15th century
+          BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.[4][5][6]</p>
+        <p id="borderForGallery">VIEW GALLERY</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Drinks</h2>
+        <h5><strong>We also produce delcious drinks</strong></h5>
+        <p>The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011.[1] Humans keep
+          chickens primarily as a source of food, consuming both their meat and their eggs. .Genetic studies have pointed to multiple maternal origins in Southeast Asia, East Asia,[2] and South Asia, but with the clade found in the Americas, Europe, the
+          Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC.[3] Fowl had been known in Egypt since the mid-15th century
+          BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.[4][5][6]</p>
+        <a href="#">VIEW GALLERY</a>
+      </div>
+      <div class="col-md-6" style="padding-top:20px" id="border3">
+        <div class="col-md-5">
+          <img src="assets/drink1.jpg" alt="">
+
+        </div>
+        <div class="col-md-4">
+          <img src="assets/drink2.jpg" alt="underage">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="ground">
+        <h2>fast food </h2>
+        <img src="assets/fastfood/chickenBurger.jpg" alt="beef burger"> <img src="assets/fastfood/beefBurger.jpg" alt="chicken burger"> <img src="assets/fastfood/chickenPizza.jpg" alt="chicken pizza">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row" id="inset">
+      <div class="col-md-8">
+        <h5 style=color:#F15A29><strong>our happy customers</strong></h5>
+        <p style="text-align:center"><strong>George Richard</strong></p>
+        <p>Great food!Menu is awesome,their foods are not only great but also in the right price</p>
+        <img src="assets/customers/p1.png" alt="asset"> <img src="assets/customers/p2.png" alt="customer"> <img src="assets/customers/p3.png" alt="">
+
+      </div>
+      <div class="col-md-4">
+        <h5 style=color:#F15A29><strong>About Menu</strong></h5>
+        <p>We are menu a little team of 7 members.Ut visi enim ad minim venos qui trexoder ci tation ullamcopmer omenr inderv susctipy lob ortis unil ul quilipd rimenfnh </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-first">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 style=color:white>Get our daily food items delivered to your email</h4>
+          <input type="email" name="email" placeholder="Email Address" />
+        </div>
+      </div>
+      <button type="submit" class="btn btn--primary type--uppercase">Keep it cool keep it classy</button>
+    </div>
+  </div>
+  </div>
+  <div class="footer-second">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 style=color:white> <img src="assets/footerlogos/logo_white.png" alt="burger pic">MENU</h2>
+        <p>That's what we are</p>
+        <div class="article__share text-center">
+          <a class="btn bg--facebook btn--icon" href="#">
+                    <span class="btn__text">
+                        <i class="socicon socicon-facebook"></i>
+                        Share on Facebook
+                    </span>
+                </a>
+          <a class="btn bg--twitter btn--icon" href="#">
+                    <span class="btn__text">
+                        <i class="socicon socicon-twitter"></i>
+                        Share on Twitter
+                    </span>
+                </a>
+        </div>
+        </div>
+        </div>
+        <!--end of row-->
+        <p>2016 Menu Restaurant</p>
+      </div>
+    </div>
+  </div>
+  </div>
 
 
 
