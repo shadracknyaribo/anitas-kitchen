@@ -1,0 +1,168 @@
+
+.jumbotron {
+  width: auto;
+  height: 635px;
+  background-image: url("../assets/backgrounds/landing.jpg");
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #F15A29;
+  background-color: #F15A29;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.centre {
+  opacity: 6;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.label {
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+.col-md-12 :hover {
+  cursor: default;
+  background-color: #F15A29;
+}
+
+.col-md-6 {
+  padding-bottom: 50px;
+}
+
+#open {
+  color: white;
+  font-size: 72px;
+}
+
+.header-logo {
+  padding-right: 50px;
+}
+
+.col-md-3 img:hover {
+  opacity: 0.4;
+}
+
+.col-md-8 h5 {
+  padding-top: 40px;
+}
+
+.col-md-4 h5 {
+  padding-top: 40px;
+}
+
+.col-md-3 {
+  padding-bottom: 50px;
+}
+
+.footer-first {
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  border-style:
+}
+
+.ground  {
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+}
+
+.footer-second {
+  background-color: #F15A29;
+  text-align: center;
+  color: white;
+}
+
+#inset {
+  border: 8px inset grey;
+}
+
+#borderForGallery {
+  border: 6px solid grey;
+}
+
+#border2 {
+  border: 6px inset grey;
+}
+
+#border3 {
+  border: 6px outset grey;
+}
+
+h5 {
+  text-align: center;
+}
+
+button {
+  float: left;
+}
+
+.footer-first {
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.container-fluid {
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  background-color: #F15A29;
+  color: white;
+  margin-bottom: 40px;
+}
+
+h4 {
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+
+}
